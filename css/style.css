@@ -318,6 +318,9 @@ body {
     font-family: Medieval;
     font-style: italic;
 }
+.statz.center div h1{
+    letter-spacing: 10px;
+}
 .statz.center div p{
     margin: 0;
 }
