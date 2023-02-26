@@ -309,7 +309,7 @@ body {
     position: relative;
 }
 
-.main-title {
+.statz.center div {
     position: absolute;
     left: 0;
     right: 0;
@@ -318,7 +318,7 @@ body {
     font-family: Medieval;
     font-style: italic;
 }
-.main-title p{
+.statz.center div p{
     margin: 0;
 }
 .dropdown {
