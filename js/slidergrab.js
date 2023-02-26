@@ -3,10 +3,10 @@ var swiper = new Swiper(".swiper-cont", {
     spaceBetween: 30,
     centerSlide: true,
     pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
+        el: ".swiper-pagination",
+        clickable: true,
     },
-    breakpoints:{
+    breakpoints: {
         0: {
             slidesPerView: 1,
         },
@@ -17,4 +17,4 @@ var swiper = new Swiper(".swiper-cont", {
             slidesPerView: 3,
         },
     },
-  });
+});
