@@ -171,9 +171,9 @@ body {
 }
 
 .social a {
-    width: 16px;
-    height: 16px;
     margin: 5px 0;
+    font-size: 20px;
+    padding-right: 5px;
     transition: .5s;
 }
 
@@ -324,11 +324,6 @@ body {
     opacity: 1;
     transition: .9s;
 }
-
-.social a {
-    padding-right: 5px;
-}
-
 .fa-sort-down {
     vertical-align: 0;
 }
