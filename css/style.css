@@ -151,7 +151,7 @@ body {
     flex-direction: row;
 }
 
-.div-titles h1 {
+.div-titles h2 {
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -370,7 +370,7 @@ body {
     width: 400px;
 }
 
-.main-content h2 {
+.main-content h3 {
     font-family: Kanit;
     margin-top: 50px;
 }
