@@ -2,10 +2,12 @@
     font-family: Kanit;
     src: url(fonts/Kanit-Black.ttf);
 }
+
 @font-face {
     font-family: Kanit-L;
     src: url(fonts/Kanit-Light.ttf);
 }
+
 @font-face {
     font-family: Medieval;
     src: url(fonts/MedievalSharp-Regular.ttf);
@@ -268,7 +270,6 @@ body {
 
 .second:hover {
     cursor: pointer;
-    font-size: 9pt;
     color: white;
     text-shadow: rgb(236 79 73) 0 0 16px;
     transition: 0.6s all;
@@ -337,6 +338,7 @@ body {
     opacity: 1;
     transition: .9s;
 }
+
 .fa-sort-down {
     vertical-align: 0;
 }
@@ -727,6 +729,7 @@ body {
 .anchor:hover {
     color: rgba(255, 255, 255, 0.7);
 }
+
 @media screen and (max-width:1350px) {
     .main-content p {
         font-size: 13px;
@@ -754,10 +757,11 @@ body {
         padding: 5px;
     }
 
-    .statz.center div h1{
+    .statz.center div h1 {
         font-size: 21px;
     }
-    .statz.center div{
+
+    .statz.center div {
         bottom: -35px;
     }
 
@@ -770,13 +774,63 @@ body {
     }
 }
 
-@media screen and (max-width:900px) {
-    .main-content p {
+@media screen and (max-width:800px) {
+    .li-element.header{
         font-size: 11px;
+        padding: 13px 10px 5px 10px;
+    }
+    .separator {
+        width: 50%;
+    }
+
+    .div-titles h2 {
+        font-size: 13px;
+    }
+
+    .statz img {
+        width: 150px;
+    }
+
+    .statz.center div {
+        bottom: -15px;
+    }
+
+    .statz.center div h1 {
+        letter-spacing: 5px;
+        font-size: 16px;
+    }
+
+    .statz.center div p {
+        font-size: 9px;
+    }
+
+    .statz i {
+        font-size: 20px;
+    }
+    .statz p{
+        font-size: 9px;
+    }
+    .header-txt.second{
+        font-size: 7px;
+    }
+    .span-header.left {
+        margin-left: -1.4em;
+        margin-top: -1em;
+    }
+    .span-header.right {
+        margin-left: 1.1em;
+        margin-top: -0.8em;
+    }
+    .span-header{
+        font-size: 8px;
+        padding: 4px;
+    }
+    .main-content p {
+        font-size: 9px;
     }
 
     .content-footer.right p {
-        font-size: 10px;
+        font-size: 5px;
     }
 
     .content-footer ul li a {
