@@ -3,7 +3,6 @@ var btn = document.getElementById('clickModal');
 var close = document.getElementsByClassName('close')[0];
 
 btn.addEventListener('click', openModal);
-/* close.addEventListener('click', closeModal); */
 window.addEventListener('click', wClose);
 
 function openModal() {
