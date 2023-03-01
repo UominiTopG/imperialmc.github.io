@@ -296,6 +296,10 @@ body {
     font-family: Medieval;
     font-style: italic;
 }
+.statz.center img{
+    width: 400px;
+    height: 400px;
+}
 
 .statz.center div h1 {
     letter-spacing: 10px;
