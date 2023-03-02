@@ -370,7 +370,7 @@ body {
 
 .article-content::before {
     content: '';
-    background-image: url(../img/background.png);
+    background-image: url(../img/nuovospawn.png);
     background-size: cover;
     background-position: center;
     border-bottom-right-radius: 70px;
