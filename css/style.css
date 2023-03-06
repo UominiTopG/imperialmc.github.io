@@ -486,8 +486,8 @@ body {
     transform: scale(0.95);
 }
 
-.swiper {
-    padding: 5% 0;
+.swiper{
+    padding: 5%!important;
     width: 50%;
     height: 100%;
     cursor: grab;
