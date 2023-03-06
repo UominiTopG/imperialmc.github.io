@@ -798,7 +798,7 @@ body {
         font-size: 13px;
     }
 
-    .statz.statz.center img {
+    .statz.center img {
         width: 150px;
         height: auto;
     }
@@ -849,7 +849,16 @@ body {
         font-size: 10px;
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width:500px) {
+    .statz.center img{
+        width: 100px!important;
+    }
+    .statz.center div h1{
+        font-size: 11px!important;
+    }
+    .statz.center div p{
+        font-size: 7px!important;
+    }
     .article-content{
         flex-direction: column;
         height: auto;
