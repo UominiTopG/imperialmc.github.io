@@ -1,3 +1,20 @@
+@font-face {
+    font-family: Kanit;
+    src: url(fonts/Kanit-Black.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Kanit-L;
+    src: url(fonts/Kanit-Light.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Medieval;
+    src: url(fonts/MedievalSharp-Regular.ttf);
+    font-display: swap;
+}
 
 /* Modal CSS */
 
@@ -115,7 +132,7 @@ a {
 body {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(../img/Backgroundimperial.avif);
+    background-image: url(../img/Backgroundimperial.webp);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -357,7 +374,7 @@ body {
 
 .article-content::before {
     content: '';
-    background-image: url(../img/nuovospawn.avif);
+    background-image: url(../img/nuovospawn.webp);
     background-size: cover;
     background-position: center;
     border-bottom-right-radius: 70px;
@@ -852,7 +869,7 @@ body {
         right: 0;
         top: 0;
         bottom: 0;
-        background-image: url(../img/nuovospawn.avif);
+        background-image: url(../img/nuovospawn.webp);
         background-position: center;
         background-size: cover;
         opacity: 0.3;
