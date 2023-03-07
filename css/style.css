@@ -240,21 +240,22 @@ body {
     position: absolute;
     box-sizing: border-box;
     background-color: #aa1f4b;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 .statz.left img, .statz.right img{
-    width: 48px;
+    width: 36px;
+    height: 36px;
     color: white;
 }
 
 .span-header.right {
-    margin-left: 2.7em;
-    margin-top: -0.9em;
+    top: -20%;
+    left: 70%;
 }
 
 .span-header.left {
-    margin-left: -0.9em;
-    margin-top: -1em;
+    top: -20%;
+    right: 70%;
 }
 
 .header-txt,
@@ -299,6 +300,12 @@ body {
     text-transform: uppercase;
     font-family: Medieval;
     font-style: italic;
+}
+.statz.left div, .statz.right div{
+    position: relative;
+    display: inline-block;
+    width: min-content;
+    height: min-content;
 }
 .statz.center img{
     width: 400px;
@@ -818,6 +825,7 @@ body {
 
     .statz.left img, .statz.right img{
         width: 20px;
+        height: 20px;
     }
     .statz p{
         font-size: 9px;
@@ -825,17 +833,17 @@ body {
     .header-txt.second{
         font-size: 7px;
     }
-    .span-header.left {
+   /*  .span-header.left {
         margin-left: -1.4em;
         margin-top: -1em;
     }
     .span-header.right {
         margin-left: 1.1em;
         margin-top: -0.8em;
-    }
+    } */
     .span-header{
-        font-size: 8px;
-        padding: 4px;
+        font-size: 8px!important;
+        padding: 3px;
     }
     .main-content p {
         font-size: 9px;
