@@ -141,6 +141,17 @@ body {
     margin: 0;
     min-width: 300px;
 }
+article{
+    text-align: center;
+}
+article p.txt{
+    font-family: Medieval;
+    letter-spacing: 3px;
+}
+article p a{
+    color: #c94770;
+
+}
 
 ::selection {
     background-color: transparent;
