@@ -41,9 +41,6 @@ function wClose(e) {
         modal.style.display = 'none';
     }
 }
-
-/* Slider grab */
-
 var swiper = new Swiper(".swiper-cont", {
   slidesPerView: 3,
   spaceBetween: 30,

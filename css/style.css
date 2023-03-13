@@ -918,4 +918,13 @@ article p a{
     .statz.right{
         display: none;
     }
+    .txt{
+        font-size: 12px;
+    }
+    div#slider{
+        width: 80%;
+    }
+    .swiper{
+        width: 40%;
+    }
 }
