@@ -347,6 +347,9 @@ article p a{
     visibility: hidden;
     opacity: 0;
 }
+.dropdown-content li:last-child{
+    border: none;
+}
 
 .element {
     text-align: center;
