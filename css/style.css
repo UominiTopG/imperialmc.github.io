@@ -123,7 +123,9 @@
 
 
 
-
+html{
+    scroll-behavior: smooth;
+}
 a {
     color: white;
     text-decoration: none;
@@ -344,6 +346,9 @@ article p a{
     position: absolute;
     visibility: hidden;
     opacity: 0;
+}
+.dropdown-content li:last-child{
+    border: none;
 }
 
 .element {
