@@ -339,7 +339,9 @@ article p a{
 
 .dropdown-content {
     top: 50px;
-    right: 12px;
+    right: 0;
+    left: 0;
+    margin: auto;
     width: 100px;
     background-image: linear-gradient(360deg, #aa1f4b, #c94770);
     z-index: 1;
