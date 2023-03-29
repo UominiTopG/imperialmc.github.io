@@ -1,4 +1,5 @@
 User-agent: Googlebot
-Disallow: /
+Disallow: 
+Allow: /
 
 Sitemap: https://www.imperialmc.it/sitemap.xml
